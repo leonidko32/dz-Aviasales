@@ -1,0 +1,231 @@
+*
+{
+box-sizing: border-box;
+}
+body
+{
+    background: #E5E5E5;
+}
+.header
+{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+font-size: 12px;
+letter-spacing: 0.5px;
+line-height: 12px;
+color: #4A4A4A;
+padding: 20px;
+margin: 0;
+}
+
+.text
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 13px;
+   
+   
+    color: #4A4A4A;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+       
+}
+.text:hover
+{
+    background: #F1FCFF;
+    cursor: pointer;
+}
+
+
+.logocontainer
+{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+margin-bottom: 50px;
+flex: 20 0 auto;
+
+}
+.logo
+{
+    width: 60px;
+    height: 60px;
+}
+.grandContainer
+{
+    display: flex;
+    flex-direction: row;
+}
+.checkBox
+{
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.1);
+    min-width: 200px;
+    padding-bottom: 10px;
+}
+
+label input {
+    display: none;/* <--скрываем дефолтный чекбокс */
+  }
+  label span {/* <-- стилизируем новый */
+    height: 20px;
+    width: 20px;
+    border: 1px solid #9ABBCE;
+    display: inline-block;
+    position: relative;
+    background-color:#FFFFFF;;
+    border-radius:2px;
+    margin: 5px;
+    margin-left: 0;
+  }
+  [type=checkbox]:checked + span:before {/* <-- ставим иконку, когда чекбокс включен  */
+    /*content: '\2713';*/
+    content: url(Shape.svg);
+    position: absolute;
+    top: 0px;
+    left: 4px;
+    font-size: 14px;
+    color:#2196F3;
+    font-weight: bold;
+  }
+  .text1
+  {
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+   
+  }
+  .leftBox
+  {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .rightBox
+  {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    flex: 3 0 auto;
+    
+  }
+  .switch
+  {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    
+  }
+  .cheap
+  {
+    background: #2196F3;
+    border: 1px solid #2196F3;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .fast
+  {
+    background: #FFFFFF;
+    border: 1px solid #DFE5EC;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .header1
+  {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 12px;
+    color: #FFFFFF;
+    padding: 20px;
+    margin: 0;
+  }
+  .priceAirline
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  .price
+  {
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: #2196F3;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    flex: 10 0 auto;
+    margin-left: 20px;
+  }
+  .image
+  {
+    flex: 10 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+   
+    
+
+  }
+  .card
+  {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .details
+  {
+    display: flex;
+  }
+
+  .column
+  {
+    display: flex;
+    flex-direction: column;
+    flex: 5 0 auto;
+    margin: 20px;
+
+  }
+  .gray
+  {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #A0B0B9;
+  }
+  .black
+  {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4A4A4A;
+    margin-bottom: 10px;
+  }
+
+  
